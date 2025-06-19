@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>President Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game">
+    <h2>President Simulator</h2>
+    <p id="story"></p>
+    <div id="choices"></div>
+    <p><strong>Approval Rating:</strong> <span id="approval">50</span>%</p>
+    <p><strong>Global Reputation:</strong> <span id="reputation">50</span>%</p>
+    <p><strong>Current Term:</strong> <span id="term">1</span></p>
+    <button onclick="saveGame()">Save Game</button>
+    <button onclick="loadGame()">Load Game</button>
+    <button onclick="showCabinet()">View Cabinet</button>
+    <button onclick="unNatoVote()">UN/NATO Vote</button>
+    <button onclick="economicPolicy()">Economic Policy</button>
+    <button onclick="mediaScandalCycle()">Handle Scandal</button>
+    <button onclick="prepareForWar()">Prepare for War</button>
+    <button onclick="showStatus()">Admin Status</button>
+    <button onclick="aiAdvisor('economy')">AI: Economic Advice</button>
+    <button onclick="aiAdvisor('scandal')">AI: Scandal Strategy</button>
+    <button onclick="aiAdvisor('war')">AI: War Readiness Plan</button>
+    <button onclick="generateHeadline()">AI: Generate Headline</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
